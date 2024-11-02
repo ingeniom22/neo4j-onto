@@ -1,0 +1,443 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mustonie/ontologies/2024/10/CRSRecSys-ontology-24#"
+     xml:base="http://www.semanticweb.org/mustonie/ontologies/2024/10/CRSRecSys-ontology-24"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:eProcRSs="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/10/CRSRecSys-ontology-24"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#berupa -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#berupa">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#kategori"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#dibeli -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#dibeli">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#membeli"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#dirating -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#dirating">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#merating"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#disediakan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#disediakan">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#menyediakan"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#kategori -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#kategori"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#membeli -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#membeli"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#menyediakan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#menyediakan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#merating -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#merating"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <owl:inverseOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#AlmtPenyedia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#AlmtPenyedia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#CityPenyedia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#CityPenyedia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#IdBarang -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#IdBarang"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#IdKab -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#IdKab"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#IdKementerian -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#IdKementerian"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#IdKota -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#IdKota"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#IdPenyedia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#IdPenyedia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#IdProv -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#IdProv"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#NmBarang -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#NmBarang"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#NmKab -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#NmKab"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#NmKementerian -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#NmKementerian"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#NmKota -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#NmKota"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#NmPenyedia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#NmPenyedia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#NmProv -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#NmProv"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#TelpPenyedia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#TelpPenyedia"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Barang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Barang"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Instansi_Pusat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Instansi_Pusat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Jasa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Jasa"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Keamanan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Keamanan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Jasa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Kebersihan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Kebersihan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Jasa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Kementerian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Kementerian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Instansi_Pusat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#LPNK -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#LPNK">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Instansi_Pusat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Laptop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Laptop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Barang"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Pemerintah_Daerah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Pemerintah_Daerah"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Pemkab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Pemkab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Pemerintah_Daerah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Pemkot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Pemkot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Pemerintah_Daerah"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Penyedia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Penyedia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Printer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Printer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Barang"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Provinsi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Provinsi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Pemerintah_Daerah"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#AxiooMyBook -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#AxiooMyBook">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Barang"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Jasa"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Laptop"/>
+        <eProcRSs:disediakan rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#PT._Tera_Data_Indonusa"/>
+        <eProcRSs:IdBarang>NB-Pro L5 (KB2)</eProcRSs:IdBarang>
+        <eProcRSs:NmBarang>AxiooMyBook Pro L5 (KB2)</eProcRSs:NmBarang>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#BdgKab -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#BdgKab">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Instansi_Pusat"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Pemerintah_Daerah"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Pemkab"/>
+        <eProcRSs:merating rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#PT._Tera_Data_Indonusa"/>
+        <eProcRSs:merating rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#PT._ZYREXINDO_MANDIRI_BUANA"/>
+        <eProcRSs:IdKab>01-BdgKab</eProcRSs:IdKab>
+        <eProcRSs:NmKab>Kabupaten Bandung</eProcRSs:NmKab>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#BdgKota -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#BdgKota">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Pemerintah_Daerah"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Pemkot"/>
+        <eProcRSs:IdKota>01-BdgKota</eProcRSs:IdKota>
+        <eProcRSs:NmKota>Kota Bandung</eProcRSs:NmKota>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#CmhKota -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#CmhKota">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Pemerintah_Daerah"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Pemkot"/>
+        <eProcRSs:IdKota>02-CmhKota</eProcRSs:IdKota>
+        <eProcRSs:NmKota>Kota Cimahi</eProcRSs:NmKota>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#DKJ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#DKJ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Pemerintah_Daerah"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Provinsi"/>
+        <eProcRSs:IdProv>02-DKJ</eProcRSs:IdProv>
+        <eProcRSs:NmProv>Daerah Khusus Jakarta</eProcRSs:NmProv>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Jabar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Jabar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Pemerintah_Daerah"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Provinsi"/>
+        <eProcRSs:IdProv>01-JBR</eProcRSs:IdProv>
+        <eProcRSs:NmProv>Jawa Barat</eProcRSs:NmProv>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#KOMDIGI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#KOMDIGI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Instansi_Pusat"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Kementerian"/>
+        <eProcRSs:IdKementerian>01-Komdigi</eProcRSs:IdKementerian>
+        <eProcRSs:NmKementerian>Kementerian Komunikasi dan Digital</eProcRSs:NmKementerian>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#PT._Tera_Data_Indonusa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#PT._Tera_Data_Indonusa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Penyedia"/>
+        <eProcRSs:dirating rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#BdgKab"/>
+        <eProcRSs:menyediakan rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#AxiooMyBook"/>
+        <eProcRSs:AlmtPenyedia>Jl. Inspeksi Pam No 168 RT. 17 RW. 04, Kelurahan. Cakung Barat, Kecamatan. Cakung</eProcRSs:AlmtPenyedia>
+        <eProcRSs:CityPenyedia>Jakarta Timur</eProcRSs:CityPenyedia>
+        <eProcRSs:IdPenyedia>4522100001-OTP-224620750</eProcRSs:IdPenyedia>
+        <eProcRSs:NmPenyedia>PT Tera Data Indonusa</eProcRSs:NmPenyedia>
+        <eProcRSs:TelpPenyedia>(021) 987654321</eProcRSs:TelpPenyedia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#PT._ZYREXINDO_MANDIRI_BUANA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#PT._ZYREXINDO_MANDIRI_BUANA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Penyedia"/>
+        <eProcRSs:dirating rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#BdgKab"/>
+        <eProcRSs:menyediakan rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#ZYREX_Cruiser"/>
+        <eProcRSs:AlmtPenyedia>Jalan Raya Daan Mogot No. 59 Tanjung Duren Utara Grogol Petamburan</eProcRSs:AlmtPenyedia>
+        <eProcRSs:CityPenyedia>Jakarta Barat</eProcRSs:CityPenyedia>
+        <eProcRSs:IdPenyedia>4524000001-OTP-224602092</eProcRSs:IdPenyedia>
+        <eProcRSs:NmPenyedia>PT ZYREXINDO MANDIRI BUANA</eProcRSs:NmPenyedia>
+        <eProcRSs:TelpPenyedia>(021) 123456789</eProcRSs:TelpPenyedia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#ZYREX_Cruiser -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#ZYREX_Cruiser">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Barang"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Jasa"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#Laptop"/>
+        <eProcRSs:disediakan rdf:resource="http://www.semanticweb.org/mustonie/ontologies/2024/9/eProcRSs#PT._ZYREXINDO_MANDIRI_BUANA"/>
+        <eProcRSs:IdBarang>FM.NTB.C20.1425H-8S2P</eProcRSs:IdBarang>
+        <eProcRSs:NmBarang>ZYREX Cruiser 20 1425H-8S2P</eProcRSs:NmBarang>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
